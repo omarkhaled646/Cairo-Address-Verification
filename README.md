@@ -51,40 +51,29 @@ docker-compose up
 
   ![Book1 - Excel 1_10_2024 2_23_20 PM](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/f89570a1-af6e-41c7-bdb8-6b17bbce8b91)
 
+## Test Script
 
+- After running the command <pre>docker-compose up</pre>, you can use the test_script.py file which is in scripts directory
+- Open the project folder using any IDE
+- Then, navigate to the file I referred to earlier in scripts/test_script.py
+- Type your address to test here (Remember to write it in Arabic):
 
-Provide an overview of the datasets and include source links:
+   ![annotely_image (3)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/1ffd2ad7-b320-48ff-963c-18868a053fbd)
 
-- Overview of the datasets used
-- Instructions on how to upload datasets in Excel format
-- Notes on the datasets, if any
-- Project structure related to datasets
+- Open the terminal in your IDE and Run it using <pre>python scripts/test_script.py</pre>
 
-### Testing Your Solution
-
-Provide instructions on how to test the solution. Include details on using the test script, which interacts with the external server, sends HTTP requests, and returns results, including execution time.
-
-### Verifying Results
+## Verifying Results
 
 Explain how to verify the claimed results. This could involve specific steps or commands to check the output or compare against expected results.
 
 ## Project Structure
 
-### Test Script
 
-Provide details on the test script that interacts with the external server:
 
-- How to use the script
-- What kind of requests it sends
-- How to interpret the results, including execution time
-
-### Results
+## Results
 
 Provide a section detailing the results of the project. Include any metrics, insights, or significant findings.
 
-### Text File of Embeddings and Data Sources
-
-Explain the contents of the text file containing embeddings and data sources. Include any specific information on how to use this file in the project.
 
 ### Notes
 
