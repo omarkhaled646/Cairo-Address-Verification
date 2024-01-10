@@ -53,14 +53,15 @@ docker-compose up
 
 ## Test Script
 
-- After running the command <pre>docker-compose up</pre>, you can use the test_script.py file which is in scripts directory
+- After running the command: <pre>docker-compose up</pre>
+- You can use the test_script.py file which is in the scripts directory
 - Open the project folder using any IDE
 - Then, navigate to the file I referred to earlier in scripts/test_script.py
 - Type your address to test here (Remember to write it in Arabic):
 
    ![annotely_image (3)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/1ffd2ad7-b320-48ff-963c-18868a053fbd)
 
-- Open the terminal in your IDE and Run it using <pre>python scripts/test_script.py</pre>
+- Open the terminal in your IDE and Run it using the following command: <pre>python scripts/test_script.py</pre>
 
 ## Verifying Results
 
