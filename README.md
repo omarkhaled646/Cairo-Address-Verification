@@ -64,7 +64,7 @@ docker-compose up
 - Open the terminal in your IDE and Run it using the following command: <pre>python scripts/test_script.py</pre>
 
 ## Project Structure
-<pre>public</pre>: Contains the public assets.
+<code>public</code>: Contains the public assets.
 
 
 ## Results
