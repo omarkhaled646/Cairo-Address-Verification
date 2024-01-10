@@ -6,21 +6,26 @@ Cairo Address Verification is an HTTP API that takes an address name and checks 
 
 ## Building the Docker Image
 
-<!-- Add the Clipboard.js library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-
 <!-- Create a button and wrap your command in a pre tag with an id -->
-<button class="btn" data-clipboard-target="#your-command">Copy</button>
+<button onclick="copyToClipboard('#your-command')">Copy</button>
 
 <pre id="your-command">
 # Your command here
 echo "Hello, world!"
 </pre>
 
-<!-- Initialize Clipboard.js -->
 <script>
-  new ClipboardJS('.btn');
+  function copyToClipboard(elementId) {
+    var copyText = document.querySelector(elementId);
+    var range = document.createRange();
+    range.selectNode(copyText);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+  }
 </script>
+
 
 
 ### Testing Your Solution
