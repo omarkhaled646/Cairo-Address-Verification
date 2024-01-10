@@ -113,7 +113,9 @@ docker-compose up
 
 ### Testing using the test script file
 
-| ![Image 1](https://github.com/omarkhaled646/Cairo-Address-Verification/blob/main/assets/63152184/038210fc-5eee-46d2-9e12-c89b67cbac39) | ![Image 2](https://github.com/omarkhaled646/Cairo-Address-Verification/blob/main/assets/63152184/a3b2ee75-e7b6-4711-9c1b-3e4680645d82) |
+| ![test_script_res_1](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/b2d33d65-fee5-4a89-9195-721b3c86fb82)
+ | ![test_script_res_2](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/0405d74a-b595-4f63-9ed0-bdfea85ebdfa)
+ |
 | --- | --- |
 
 
