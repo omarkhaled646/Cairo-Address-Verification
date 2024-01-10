@@ -26,6 +26,17 @@ docker-compose build
 docker-compose up
 </pre>
 
+## Dataset
+
+- The Dataset is collected from the combination Cairo.txt (you can find it at /datasets) that contains districts where are in Cairo and data from <a href="eg.dowwer.com/regions">dowwer.com </a> using web scraping.
+
+Provide an overview of the datasets and include source links:
+
+- Overview of the datasets used
+- Instructions on how to upload datasets in Excel format
+- Notes on the datasets, if any
+- Project structure related to datasets
+
 ### Testing Your Solution
 
 Provide instructions on how to test the solution. Include details on using the test script, which interacts with the external server, sends HTTP requests, and returns results, including execution time.
@@ -43,15 +54,6 @@ Provide details on the test script that interacts with the external server:
 - How to use the script
 - What kind of requests it sends
 - How to interpret the results, including execution time
-
-### Datasets and Source Links
-
-Provide an overview of the datasets and include source links:
-
-- Overview of the datasets used
-- Instructions on how to upload datasets in Excel format
-- Notes on the datasets, if any
-- Project structure related to datasets
 
 ### Results
 
