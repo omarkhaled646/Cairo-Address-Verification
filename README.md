@@ -93,11 +93,11 @@ docker-compose up
 
 ### metrics: 
 
-| Model           | Training Precision | Training Recall | Testing Precision | Testing Recall |
-|-----------------|--------------------|------------------|---------------------|----------------|
-| LSTM            | 0.72               | 0.9              | 0.53                | 0.62           |
-| GRU             | 0.71               | 0.87             | 0.5                 | 0.69           |
-| biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           |
+| Model           | Training Precision | Training Recall | Testing Precision | Testing Recall | ROC Score |
+|-----------------|--------------------|------------------|---------------------|----------------|-----------|
+| LSTM            | 0.72               | 0.9              | 0.53                | 0.62           | 0.91      |
+| GRU             | 0.71               | 0.87             | 0.5                 | 0.69           | 0.90      |
+| biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           | 0.92      |
 
 
 ## Verifying Results
