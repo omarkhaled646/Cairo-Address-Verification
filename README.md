@@ -6,27 +6,11 @@ Cairo Address Verification is an HTTP API that takes an address name and checks 
 
 ## Building the Docker Image
 
-<!-- Create a button and wrap your command in a pre tag with an id -->
-<button onclick="copyToClipboard('#your-command')">Copy</button>
+You can build the Docker Image using the following command
 
 <pre id="your-command">
-# Your command here
-echo "Hello, world!"
+docker build -t <your-image-name> .
 </pre>
-
-<script>
-  function copyToClipboard(elementId) {
-    var copyText = document.querySelector(elementId);
-    var range = document.createRange();
-    range.selectNode(copyText);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-  }
-</script>
-
-
 
 ### Testing Your Solution
 
