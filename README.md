@@ -125,7 +125,7 @@ docker-compose up
 
 ## Verifying Results
 
-Explain how to verify the claimed results. This could involve specific steps or commands to check the output or compare against expected results.
+- You can verify the model results by running the verfiy_model_resutls.py using this command: <pre>python scripts/verfiy_model_results.py</pre>
 
 ### Notes
 
