@@ -91,13 +91,13 @@ class AddressVerifier:
         prediction = self.predict_address(address_text)
 
         confidence = prediction[0][0]
-        threshold = 0.5
+        threshold = 0.7
         is_in_cairo = confidence >= threshold
         confidence_prob = np.round(confidence, 2)
         if not is_in_cairo:
             confidence_prob = np.round(1 - confidence, 2)
 
-        result = {'is_in_cairo': str(is_in_cairo), 'confidence': str(confidence_prob)}
+        result = {'is_in_cairo': str(is_in_cairo), 'confidence': f'{confidence_prob * 100:.2f}%'}
         
         end_time = time.time()
         execution_time = end_time - start_time
