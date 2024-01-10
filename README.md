@@ -107,11 +107,9 @@ docker-compose up
 
 ### Testing with Postman using docker-compose.yml
 
-| ![Image 1]![postman_res_1](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/0e5d4e89-28e6-41dc-8d15-61b37c8b2c83)  | ![Image 2](![postman_res_2](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/064ebd27-1c15-434f-b661-b103f82461a7)
-) |
-| ![Image 3](![postman_res_3](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/ebfaaf6a-ed8e-4667-8267-202e98fa0e70)
-) | ![Image 4](![postman_res_4](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/683494e2-879c-4e42-a7e4-b0558f4e13d9)
-) |
+| ![Image 1](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/0e5d4e89-28e6-41dc-8d15-61b37c8b2c83)  | ![Image 2](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/064ebd27-1c15-434f-b661-b103f82461a7) |
+| ![Image 3](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/ebfaaf6a-ed8e-4667-8267-202e98fa0e70) | ![Image 4](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/683494e2-879c-4e42-a7e4-b0558f4e13d9) |
+
 
 ## Verifying Results
 
