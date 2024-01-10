@@ -6,10 +6,12 @@ Cairo Address Verification is an HTTP API that takes an address name and checks 
 
 ## Building the Docker Image
 
-You can build the Docker Image using the following command
+- Open Docker Desktop on your computer
+- Open your CMD then navigate to the location of the project
+- Use the following Docker command:
 
 <pre id="your-command">
-docker build -t <your-image-name> .
+docker build -t (your-image-name) .
 </pre>
 
 ### Testing Your Solution
