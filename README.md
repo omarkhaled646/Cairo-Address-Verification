@@ -41,6 +41,16 @@ docker-compose up
 
   ![annotely_image (1)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/c69bd28d-4fc5-41f9-adc4-e279fe6af40d)
 
+  3- Choose the dataset with the name district_data.csv in the datasets directory from it's location on your computer and click import
+
+  4- Click on Load
+
+  ![annotely_image (2)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/d5f8f103-4ae8-49a7-9dfb-534bc2a39d4b)
+
+- Here is a sample of the dataset that should appear to you
+
+  ![Book1 - Excel 1_10_2024 2_23_20 PM](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/16ec7a39-953c-42ac-88ab-8c8de9c96948)
+
 
 Provide an overview of the datasets and include source links:
 
