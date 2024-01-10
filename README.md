@@ -28,7 +28,12 @@ docker-compose up
 
 ## Dataset
 
-- The Dataset is collected from the combination Cairo.txt (you can find it at /datasets) that contains districts where are in Cairo and data from <a href="https://eg.dowwr.com/regions/">dowwer.com </a> using web scraping.
+- The Dataset is collected from the combination Cairo.txt that contains districts that are in Cairo and data from <a href="https://eg.dowwr.com/regions/">dowwer.com </a> using web scraping.
+- You can find both the Cairo.txt file and the generated dataset in the datasets directory
+- It consists of two columns the district name and the label (1 if in Cairo else 0)
+- You can open it with proper format in Excel by the following steps:
+    1- Open Excel and from the top bar navigate to data
+    
 
 Provide an overview of the datasets and include source links:
 
