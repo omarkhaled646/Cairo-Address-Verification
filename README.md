@@ -28,7 +28,7 @@ docker-compose up
 
 ## Dataset
 
-- The Dataset is collected from the combination Cairo.txt (you can find it at /datasets) that contains districts where are in Cairo and data from <a href="[eg.dowwer.com/regions](https://eg.dowwr.com/regions/)">dowwer.com </a> using web scraping.
+- The Dataset is collected from the combination Cairo.txt (you can find it at /datasets) that contains districts where are in Cairo and data from <a href="https://eg.dowwr.com/regions/">dowwer.com </a> using web scraping.
 
 Provide an overview of the datasets and include source links:
 
