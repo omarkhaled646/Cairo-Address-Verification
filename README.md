@@ -95,9 +95,9 @@ docker-compose up
 
 | Model           | Training Precision | Training Recall | Testing Precision | Testing Recall |
 |-----------------|--------------------|------------------|---------------------|----------------|
-| Model 1         | 0.74               | 0.90             | 0.44                | 0.54           |
-| Model 2         | ...                | ...              | ...                 | ...            |
-| Model 3         | ...                | ...              | ...                 | ...            |
+| LSTM            | 0.72               | 0.9              | 0.53                | 0.62           |
+| GRU             | 0.71               | 0.87             | 0.5                 | 0.69           |
+| biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           |
 
 
 ## Verifying Results
