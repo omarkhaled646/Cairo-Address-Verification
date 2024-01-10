@@ -141,4 +141,4 @@ docker-compose up
 - I tried hard-coded stemming (e.g, remove 'ال') but it doesn't make a difference and I think it makes the model perform more poorly
 - If you want to run the code locally, please install the requirements.txt file in the app directory and make sure to have Python3.10 installed
 - If you face any problem in the HTTP API run try changing the url from <code>http://127.0.0.1:8080/verify_cairo_address</code> to <code>http://localhost:8080/verify_cairo_address"</code>
-- If any image doesn't appear with high quality, please click on it to appear in another window.
+- If any image doesn't appear with high quality, please click on it to appear in new tab.
