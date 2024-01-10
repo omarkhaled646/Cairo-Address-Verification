@@ -113,8 +113,6 @@ docker-compose up
 
 ### Testing using the test script file
 
-| ![test_script_res_1](https://raw.githubusercontent.com/omarkhaled646/Cairo-Address-Verfication/main/assets/63152184/79487ba7-3d05-4ac0-8515-e059eec8b74f) |
-| --- |
 | ![test_script_res_2](https://raw.githubusercontent.com/omarkhaled646/Cairo-Address-Verfication/main/assets/63152184/c63e8162-7536-4c75-957e-222c89fc8ce4) |
 
 
