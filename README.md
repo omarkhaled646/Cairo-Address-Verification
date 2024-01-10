@@ -95,9 +95,9 @@ docker-compose up
 
 | Model           | Training Precision | Training Recall | Testing Precision | Testing Recall | ROC Score |
 |-----------------|--------------------|------------------|---------------------|----------------|-----------|
-| LSTM            | 0.72               | 0.9              | 0.53                | 0.62           | 0.91      |
-| GRU             | 0.71               | 0.87             | 0.5                 | 0.69           | 0.90      |
-| biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           | 0.92      |
+| LSTM            | 0.72               | 0.9              | 0.53                | 0.62           | 0.93      |
+| GRU             | 0.71               | 0.87             | 0.5                 | 0.69           | 0.91      |
+| biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           | 0.93      |
 
 - Note that the represented numbers are approximated to 2 decimal points
 
@@ -125,8 +125,20 @@ docker-compose up
 
 ## Verifying Results
 
-Explain how to verify the claimed results. This could involve specific steps or commands to check the output or compare against expected results.
+- You can verify the model results by running the verfiy_model_resutls.py using this command: <pre>python scripts/verfiy_model_results.py</pre>
+- Make sure to have Python3.10 and run this command to install all requirements libraries <pre>pip install -r scripts/verfiy_results_requirements.txt</pre>
+- You can verify the other models as well just change the path, you will find all other models in /extra models directory
+- If you have any problems please check the notebook
+- Also, if you see a different number for any metric you can check the notebook, load the model, uncomment the last two cells, and run.
+- Here is a screenshot from the notebook results:
+
+  ![nlp_task ipynb - Colaboratory - Google Chrome 1_10_2024 10_04_24 PM](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/b393e48c-136a-4d3e-97e9-f1b6b2b17afe)
+
 
 ### Notes
 
-Include any additional notes or considerations that users should be aware of. This could cover troubleshooting tips, known issues, or other relevant information to enhance the user experience.
+- I struggled a bit with the HERE API, so due to the shortage of time I web-scraped data to work on, but given enough amount of time I would've figured out how to MAKE the Here API work
+- I tried hard-coded stemming (e.g, remove 'ال') but it doesn't make a difference and I think it makes the model perform more poorly
+- If you want to run the code locally, please install the requirements.txt file in the app directory and make sure to have Python3.10 installed
+- If you face any problem in the HTTP API run try changing the url from <code>http://127.0.0.1:8080/verify_cairo_address</code> to <code>http://localhost:8080/verify_cairo_address"</code>
+- If any image doesn't appear with high quality, please click on it to appear in new tab.
