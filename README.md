@@ -105,6 +105,11 @@ docker-compose up
 
 ![image](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/d7f5701c-301f-43cc-96ec-b3d722afa57e)
 
+### Show difference in time between .h5 model and .onnx model
+
+| ![lstm_model_h5_time](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/5400e3b2-fd6b-4202-8e97-a8632e30bcc2) | ![onnx_model_time](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/07771885-93a9-41bc-a650-7141df955e6b) |
+| --- | --- |
+
 ### Testing with Postman using docker-compose.yml
 
 | ![Image 1](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/0e5d4e89-28e6-41dc-8d15-61b37c8b2c83) | ![Image 2](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/064ebd27-1c15-434f-b661-b103f82461a7) |
@@ -115,14 +120,6 @@ docker-compose up
 
 | ![test_script_res_1](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/589c88e2-5edc-45a8-8730-68f823c80458) | ![test_script_res_2](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/7128a425-f8f3-4709-914f-882ef544d10e) |
 | --- | --- |
-
-
-
-
-
-
-
-
 
 ## Verifying Results
 
