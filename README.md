@@ -68,10 +68,25 @@ docker-compose up
 &emsp;&emsp;<code>app.py:</code> code for HTTP API<br>
 &emsp;&emsp;<code>requirements.txt:</code> contains all libraries needed to run app.py<br>
 <code>core model architecture:</code><br>
-&emsp;&emsp;&emsp;&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
-&emsp;&emsp;&emsp;&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model
-
-
+&emsp;&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
+&emsp;&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model<br>
+<code>datasets:</code><br>
+&emsp;&emsp;<code>Cairo.txt:</code> contains district names in Cairo<br>
+&emsp;&emsp;<code>dataset_sources.txt:</code> contains link of the dataset and the word embedding model<br>
+&emsp;&emsp;<code>district_data.csv:</code> contains district names and labels<br>
+&emsp;&emsp;<code>word_embeddings.csv:</code> contains each word embedding vector<br>
+&emsp;&emsp;<code>word_embeddings_for_ordinary_classifiers.csv:</code> contains each word embedding vector and label<br>
+<code>extra models:</code><br>
+&emsp;&emsp;<code>birnn_model.h5:</code> bidirectional RNN model<br>
+&emsp;&emsp;<code>gru_model.h5:</code> GRU model<br>
+<code>model:</code><br>
+&emsp;&emsp;<code>lstm_model.h5:</code> LSTM model<br>
+&emsp;&emsp;<code>model.onnx:</code> ONNX model that is generated from the LSTM model and used for prediction in API<br>
+&emsp;&emsp;<code>word_index.json:</code> JSON file that maps each word to it's corresponding indx<br>
+<code>scripts:</code><br>
+&emsp;&emsp;<code>test_scriot.py:</code> script used to test the HTTP API<br>
+<code>Dockerfile:</code> used to build the Docker Image<br>
+<code>docker-compose.yml:</code> used to run our Docker Image<br>
 
 
 ## Results
