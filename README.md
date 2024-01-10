@@ -2,7 +2,7 @@
 
 ## Overview
 
-Cairo Address Verification is an HTTP API that takes an address name and checks if it exists in Cairo or not using an LSTM Deep Learning Mode.
+Cairo Address Verification is an HTTP API that takes an address name and checks if it exists in Cairo or not using an LSTM Deep Learning Model.
 
 ## Building the Docker Image
 
@@ -31,7 +31,7 @@ docker-compose up
 - The Dataset is collected from the combination Cairo.txt that contains districts that are in Cairo and data from <a href="https://eg.dowwr.com/regions/">dowwer.com </a> using web scraping.
 - You can find both the Cairo.txt file and the generated dataset in the datasets directory
 - It consists of two columns the district name and the label (1 if in Cairo else 0) and contains 413 districts from all Egypt governorates
-- You can open it with proper format in Excel by the following steps: 
+- You can open it in proper format in Excel by the following steps: 
 
    1- Open Excel and from the top bar navigate to data
 
@@ -41,7 +41,7 @@ docker-compose up
 
   ![annotely_image (1)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/c69bd28d-4fc5-41f9-adc4-e279fe6af40d)
 
-  3- Choose the dataset with the name district_data.csv in the datasets directory from it's location on your computer and click import
+  3- Choose the dataset with the name district_data.csv in the datasets directory from its location on your computer and click Import
 
   4- Click on Load
 
@@ -49,7 +49,8 @@ docker-compose up
 
 - Here is a sample of the dataset that should appear to you
 
-  ![Book1 - Excel 1_10_2024 2_23_20 PM](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/16ec7a39-953c-42ac-88ab-8c8de9c96948)
+  ![Book1 - Excel 1_10_2024 2_23_20 PM](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/f89570a1-af6e-41c7-bdb8-6b17bbce8b91)
+
 
 
 Provide an overview of the datasets and include source links:
