@@ -64,7 +64,7 @@ docker-compose up
 - Open the terminal in your IDE and Run it using the following command: <pre>python scripts/test_script.py</pre>
 
 ## Project Structure
-<code>app</code>:
+<pre>app</pre>:
         - <code>app.py</code>: code for HTTP API
         - <code>requirements.txt</code>: contains all libraries needed to run app.py
 
