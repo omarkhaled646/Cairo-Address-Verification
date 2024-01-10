@@ -1,0 +1,4 @@
+
+dataset_source: https://eg.dowwr.com/regions/
+
+word_embeddings_source: https://huggingface.co/facebook/fasttext-ar-vectors
