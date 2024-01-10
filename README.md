@@ -4,9 +4,24 @@
 
 Cairo Address Verification is an HTTP API that takes an address name and checks if it exists in Cairo or not using an LSTM Deep Learning Mode.
 
-### Building the Docker Image
+## Building the Docker Image
 
-Include a brief explanation of the model architecture and where to find the code within the project.
+<!-- Add the Clipboard.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+
+<!-- Create a button and wrap your command in a pre tag with an id -->
+<button class="btn" data-clipboard-target="#your-command">Copy</button>
+
+<pre id="your-command">
+# Your command here
+echo "Hello, world!"
+</pre>
+
+<!-- Initialize Clipboard.js -->
+<script>
+  new ClipboardJS('.btn');
+</script>
+
 
 ### Testing Your Solution
 
