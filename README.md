@@ -31,8 +31,10 @@ docker-compose up
 - The Dataset is collected from the combination Cairo.txt that contains districts that are in Cairo and data from <a href="https://eg.dowwr.com/regions/">dowwer.com </a> using web scraping.
 - You can find both the Cairo.txt file and the generated dataset in the datasets directory
 - It consists of two columns the district name and the label (1 if in Cairo else 0)
-- You can open it with proper format in Excel by the following steps:
-    1- Open Excel and from the top bar navigate to data
+- You can open it with proper format in Excel by the following steps: 
+-    1- Open Excel and from the top bar navigate to data
+  ![annotely_image](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/0eb11040-7119-4442-bf34-8529879c02d1)
+
     
 
 Provide an overview of the datasets and include source links:
