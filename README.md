@@ -137,4 +137,7 @@ docker-compose up
 
 ### Notes
 
-Include any additional notes or considerations that users should be aware of. This could cover troubleshooting tips, known issues, or other relevant information to enhance the user experience.
+- I struggled a bit with the HERE API, so due to the shortage of time I web-scraped data to work on, but given enough amount of time I would've figured out how to MAKE the Here API work
+- I tried hard-coded stemming (e.g, remove 'ال') but it doesn't make a difference and I think it makes the model perform more poorly
+- If you want to run the code locally, please install the requirements.txt file in the app directory
+- If you face any problem in the HTTP API run try changing the url from <code>http://127.0.0.1:8080/verify_cairo_address</code> to <code>http://localhost:8080/verify_cairo_address"</code>
