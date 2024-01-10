@@ -110,7 +110,7 @@ docker-compose up
 | ![annotely_image (2)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/3578b0a6-7090-4f79-a484-d982cf198c43) | ![annotely_image (3)](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/1a82d90a-f0d7-4619-b6ca-d8cebb5c4a9f) |
 | --- | --- |
 
-- Note that the time decreased from 76 ms to 8 ms that an optimization by approximately 90%
+- Note that the time decreased from 76 ms to 8 ms an optimization of approximately 90%
 
 ### Testing with Postman using docker-compose.yml
 
