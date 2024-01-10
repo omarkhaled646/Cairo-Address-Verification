@@ -65,11 +65,12 @@ docker-compose up
 
 ## Project Structure
 <code>app:</code><br>
-&emsp;<code>app.py:</code> code for HTTP API<br>
-&emsp;<code>requirements.txt:</code> contains all libraries needed to run app.py<br>
+&emsp;&emsp;<code>app.py:</code> code for HTTP API<br>
+&emsp;&emsp;<code>requirements.txt:</code> contains all libraries needed to run app.py<br>
 <code>core model architecture:</code><br>
-&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
-&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model
+&emsp;&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
+&emsp;&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model
+
 
 
 
