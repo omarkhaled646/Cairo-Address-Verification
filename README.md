@@ -91,7 +91,14 @@ docker-compose up
 
 ## Results
 
-Provide a section detailing the results of the project. Include any metrics, insights, or significant findings.
+### metrics: 
+
+| Model           | Training Precision | Training Recall | Testing Precision | Testing Recall |
+|-----------------|--------------------|------------------|---------------------|----------------|
+| Model 1         | 0.74               | 0.90             | 0.44                | 0.54           |
+| Model 2         | ...                | ...              | ...                 | ...            |
+| Model 3         | ...                | ...              | ...                 | ...            |
+
 
 ## Verifying Results
 
