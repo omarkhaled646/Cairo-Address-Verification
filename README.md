@@ -99,6 +99,12 @@ docker-compose up
 | GRU             | 0.71               | 0.87             | 0.5                 | 0.69           | 0.90      |
 | biRNN           | 0.85               | 0.87             | 0.5                 | 0.62           | 0.92      |
 
+- Note that the represented numbers are approximated to 2 decimal points
+
+### Graph of ROC and Precision vs Recall Comparison 
+
+![image](https://github.com/omarkhaled646/Cairo-Address-Verfication/assets/63152184/d7f5701c-301f-43cc-96ec-b3d722afa57e)
+
 
 ## Verifying Results
 
