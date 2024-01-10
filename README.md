@@ -68,8 +68,8 @@ docker-compose up
 &emsp;&emsp;<code>app.py:</code> code for HTTP API<br>
 &emsp;&emsp;<code>requirements.txt:</code> contains all libraries needed to run app.py<br>
 <code>core model architecture:</code><br>
-&emsp;&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
-&emsp;&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model
+&emsp;&emsp;&emsp;&emsp;<code>nlp_task.ipynb:</code> notebook contain all the model generation stages<br>
+&emsp;&emsp;&emsp;&emsp;<code>onnx_model_creation.py:</code> convert the saved model to ONNX model
 
 
 
