@@ -65,8 +65,8 @@ docker-compose up
 
 ## Project Structure
 <code>app</code>: <br>
-        - <code>app.py</code>: code for HTTP API
-        - <code>requirements.txt</code>: contains all libraries needed to run app.py
+                - <code>app.py</code>: code for HTTP API <br>
+                - <code>requirements.txt</code>: contains all libraries needed to run app.py <br>
 
 
 
