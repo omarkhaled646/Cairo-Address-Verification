@@ -63,18 +63,22 @@ docker-compose up
 
 - Open the terminal in your IDE and Run it using the following command: <pre>python scripts/test_script.py</pre>
 
-## Verifying Results
-
-Explain how to verify the claimed results. This could involve specific steps or commands to check the output or compare against expected results.
-
 ## Project Structure
-
+<pre> public: Contains the public assets.
+src: Contains the source code.
+components: Contains all reusable components.
+pages: Contains the pages.
+sections: Contains the sections.
+ui: Contains the smaller UI components.
 
 
 ## Results
 
 Provide a section detailing the results of the project. Include any metrics, insights, or significant findings.
 
+## Verifying Results
+
+Explain how to verify the claimed results. This could involve specific steps or commands to check the output or compare against expected results.
 
 ### Notes
 
