@@ -82,9 +82,12 @@ docker-compose up
 <code>model:</code><br>
 &emsp;&emsp;<code>lstm_model.h5:</code> LSTM model<br>
 &emsp;&emsp;<code>model.onnx:</code> ONNX model that is generated from the LSTM model and used for prediction in API<br>
-&emsp;&emsp;<code>word_index.json:</code> JSON file that maps each word to it's corresponding indx<br>
+&emsp;&emsp;<code>word_index.json:</code> JSON file that maps each word to its corresponding indx<br>
 <code>scripts:</code><br>
-&emsp;&emsp;<code>test_scriot.py:</code> script used to test the HTTP API<br>
+&emsp;&emsp;<code>test_script.py:</code> script used to test the HTTP API<br>
+&emsp;&emsp;<code>verfiy_model_results.py:</code> script used to verfiy the model results<br>
+&emsp;&emsp;<code>verfiy_results_requirements.txt:</code> text file contains all required libraries that need to be installed for verfiy script<br>
+&emsp;&emsp;<code>data:</code> contains X, y data as .npy to be used in the verification script<br>
 <code>Dockerfile:</code> used to build the Docker Image<br>
 <code>docker-compose.yml:</code> used to run our Docker Image<br>
 
