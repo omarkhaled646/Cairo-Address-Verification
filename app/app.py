@@ -91,7 +91,7 @@ class AddressVerifier:
         prediction = self.predict_address(address_text)
 
         confidence = prediction[0][0]
-        threshold = 0.7
+        threshold = 0.5
         is_in_cairo = confidence >= threshold
         confidence_prob = np.round(confidence, 2)
         if not is_in_cairo:
